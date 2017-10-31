@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KernextPatches</key>
+	<dict>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>AppleGraphicsDevicePolicy (board-id) Patch (c) Pike R. Alpha</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				Ym9hcmQtaWQ=
+				</data>
+				<key>Name</key>
+				<string>AppleGraphicsDevicePolicy</string>
+				<key>Replace</key>
+				<data>
+				Ym9hcmQtaXg=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Atheros locale fix</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g/s3
+				</data>
+				<key>Name</key>
+				<string>AirPortAtheros40</string>
+				<key>Replace</key>
+				<data>
+				g/sh
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>[FredWst] NVIDIA Black Screen fix / Sierra</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				hcB0LEmLB0iNdaA=
+				</data>
+				<key>Name</key>
+				<string>AppleGraphicsDevicePolicy</string>
+				<key>Replace</key>
+				<data>
+				hcDrLEmLB0iNdaA=
+				</data>
+			</dict>
+		</array>
+	</dict>
+	<key>Preferences</key>
+	<dict>
+		<key>SaveLogToFile</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

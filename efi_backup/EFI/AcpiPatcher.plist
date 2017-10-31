@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACPI</key>
+	<dict>
+		<key>FixHeader</key>
+		<true/>
+		<key>GenerateCPUStates</key>
+		<false/>
+		<key>PatchOemTableOnly</key>
+		<false/>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>PEGP -&gt; GFX0</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				UEVHUA==
+				</data>
+				<key>Replace</key>
+				<data>
+				R0ZYMA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>GFX0 [to] GFX2</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				R0ZYMA==
+				</data>
+				<key>Replace</key>
+				<data>
+				R0ZYMg==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>COPR [to] MATH</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				Q09QUg==
+				</data>
+				<key>Replace</key>
+				<data>
+				TUFUSA==
+				</data>
+			</dict>
+		</array>
+	</dict>
+	<key>Preferences</key>
+	<dict>
+		<key>Debug</key>
+		<false/>
+		<key>Off</key>
+		<false/>
+		<key>SaveLogToFile</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

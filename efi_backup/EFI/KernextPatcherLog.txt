@@ -1,0 +1,30 @@
+00:100 (00:100) | KernextPatcher (rev 94d | 2017-10-24 21:42:57): Start at 2017.10.25, 0:58:40 (GMT+0)
+00:100 (00:000) | build -s -p CloverPkg.dsc -D BUILD_ACPIPATCHER -D BUILD_KERNEXTPATCHER -D DEBUG_ACPI_PATCH=1 -a X64 -t VS2015x86 -b RELEASE -n 4 -j CloverPkg.log
+00:100 (00:000) | Part of CloverPkg (https://github.com/cecekpawon/CloverPkg)
+00:100 (00:000) | Based on Clover rev 3884 (https://sourceforge.net/p/cloverefiboot)
+00:100 (00:000) | Got Apple boot-args: '-alcbeta'
+00:100 (00:000) | Running from: MemoryMapped(0xB,0xBC9B2004,0xBD2E8003)/FvFile(99665243-5AED-4D57-92AF-8C785FBC7558)
+00:111 (00:010) | Loaded Plist: PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x0,0xFFFF,0x0)/HD(1,GPT,EA027733-C910-4F0C-92CF-709D8A37F03B,0x28,0x64000)\EFI\KernextPatcher.plist
+00:111 (00:000) | KextsToPatch: 3 requested
+00:111 (00:000) |  - [00]: AppleGraphicsDevicePolicy (AppleGraphicsDevicePolicy (board-id) Patch (c) Pike R. Alpha) | patch disabled, skip
+00:111 (00:000) |  - [01]: AirPortAtheros40 (Atheros locale fix) | BinPatch | len: 3
+00:111 (00:000) |  - [02]: AppleGraphicsDevicePolicy ([FredWst] NVIDIA Black Screen fix / Sierra) | BinPatch | len: 11
+03:675 (03:564) | Found Booter (OS: 10.12 | Ver: 361.1.2)
+03:675 (00:000) | Booter Path: PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x0,0xFFFF,0x0)/HD(2,GPT,0A663268-9F79-4100-911D-79C1F3AAB605,0x64028,0xDF30B60)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D24F833996EE964EBF1F52E9FB0C75F2)\4A20922B-775E-32B9-AE8B-208F3B1C376E\System\Library\CoreServices\boot.efi
+03:676 (00:000) | OSVersion: 10.13 | BuildVersion: 17A405
+03:676 (00:000) | KernelAndKextPatcherInit: Start
+03:676 (00:000) | ScreenInfo: Base 0xF1000000 Width 1920 Height 1080 RowBytes 0x1E00
+03:676 (00:000) | AllocatePages: Got RelocBase (0xC34DC000) + valid KernelData (0xC36DC000)
+03:681 (00:005) | Found BootArgs at 0xC6DEE000
+03:681 (00:000) | RelocBase: 0xC34DC000
+03:681 (00:000) | Found 64Bit kernel at 0xC36DC000
+03:683 (00:001) | Loaded Darwin Kernel Version 17.0.0: Thu Aug 24 21:48:19 PDT 2017; root:xnu-4570.1.46~2/RELEASE_X86_64 | VersionMajor: 17 | VersionMinor: 0 | Revision: 0
+03:683 (00:000) | Cached: Yes
+03:683 (00:000) | KernelAndKextPatcherInit: End
+03:683 (00:000) | Filtering KextPatches:
+03:683 (00:000) |  - [00]: AirPortAtheros40 (Atheros locale fix) | BinPatch | [MatchOS: All | MatchBuild: All] | Allowed: Yes
+03:683 (00:000) |  - [01]: AppleGraphicsDevicePolicy ([FredWst] NVIDIA Black Screen fix / Sierra) | BinPatch | [MatchOS: All | MatchBuild: All] | Allowed: Yes
+03:683 (00:000) | Kext patches to process: 2
+03:690 (00:007) | - com.apple.driver.AppleGraphicsDevicePolicy (AppleGraphicsDevicePolicy ([FredWst] NVIDIA Black Screen fix / Sierra)) | Addr = 0xC562B000, Size = 102400 | BinPatch | Not Found: 0 replaces done
+03:692 (00:001) | - com.apple.driver.AirPort.Atheros40 (AirPortAtheros40 (Atheros locale fix)) | Addr = 0xC58EB000, Size = 1564672 | BinPatch | Not Found: 0 replaces done
+03:797 (00:104) | KernextPatcher: End

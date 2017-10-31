@@ -1,0 +1,3 @@
+#!/bin/bash
+  
+./patchco 0000 554889E54883EC4048 C34889E54883EC4048 ./apfs.efi

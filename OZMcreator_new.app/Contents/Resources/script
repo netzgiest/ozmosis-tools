@@ -1,0 +1,3 @@
+#!/bin/bash
+./OZMTool --ozmcreate --aggressivity 1 --compressdxe  --ffs OZ --dsdt DSDT.aml --out ~/Desktop/OZM_BIOS.rom --input BIOS.rom
+
