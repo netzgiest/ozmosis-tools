@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Defaults:1F8E0C02-58A9-4E34-AE22-2B63745FA101</key>
+	<dict>
+		<key>AndroidDiskOptionTemplate</key>
+		<string>initrd=$initfs root=UUID=$uuid androidboot.hardware=android_x86 ro SRC=$path</string>
+		<key>AndroidDiskTemplate</key>
+		<string>$label</string>
+		<key>BootEntryTemplate</key>
+		<string>$label</string>
+		<key>DarwinCoreStorageTemplate</key>
+		<string>$label</string>
+		<key>DarwinDiskTemplate</key>
+		<string>$label</string>
+		<key>DarwinRecoveryDiskTemplate</key>
+		<string>$label ($platform.$major.$minor)</string>
+		<key>DisableNvidiaInjection</key>
+		<true/>
+		<key>LinuxDiskOptionTemplate</key>
+		<string>initrd=$initfs root=UUID=$uuid ro</string>
+		<key>LinuxDiskTemplate</key>
+		<string>$label $build</string>
+		<key>LinuxRescueDiskTemplate</key>
+		<string>$label Rescue</string>
+		<key>LinuxRescueOptionTemplate</key>
+		<string>initrd=$initfs root=UUID=$uuid ro</string>
+		<key>TimeOut</key>
+		<integer>4</integer>
+		<key>UserInterface</key>
+		<true/>
+	</dict>
+	<key>Defaults:4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+	<dict>
+		<key>BaseBoardAssetTag</key>
+		<string>10</string>
+		<key>BaseBoardSerial</key>
+		<string>C02K2DDMF9J3912AF</string>
+		<key>BiosDate</key>
+		<string>08/21/2017</string>
+		<key>BiosVersion</key>
+		<string>IM142.88Z.0123.B00.1708211454</string>
+		<key>BoardVersion</key>
+		<string>Proto1</string>
+		<key>ChassisAssetTag</key>
+		<string>iMac-Aluminum</string>
+		<key>EnclosureType</key>
+		<integer>13</integer>
+		<key>FirmwareFeatures</key>
+		<integer>3759137079</integer>
+		<key>FirmwareFeaturesMask</key>
+		<integer>4280287039</integer>
+		<key>FirmwareRevision</key>
+		<integer>65546</integer>
+		<key>FirmwareVendor</key>
+		<string>Apple</string>
+		<key>HardwareAddress</key>
+		<string>74:d4:35:e6:34:9f</string>
+		<key>HardwareSignature</key>
+		<string>9425C187-B7AC-4EB8-898C-19DA9FFF2719</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ProcessorSerial</key>
+		<string>C02HUIG9GDR9</string>
+		<key>ProductFamily</key>
+		<string>iMac</string>
+		<key>ProductId</key>
+		<string>Mac-27ADBB7B4CEE8E61</string>
+		<key>ProductName</key>
+		<string>iMac14,2</string>
+		<key>SystemSKU</key>
+		<string>C02LT5WXF9JC</string>
+		<key>SystemSerial</key>
+		<string>C02LT5WFUCKC</string>
+		<key>SystemVersion</key>
+		<string>1.0</string>
+	</dict>
+	<key>Defaults:7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+	<dict>
+		<key>boot-args</key>
+		<string></string>
+		<key>csr-active-config</key>
+		<integer>127</integer>
+	</dict>
+	<key>Timestamp</key>
+	<integer>0</integer>
+	<key>Version</key>
+	<string>1.0.1</string>
+</dict>
+</plist>
